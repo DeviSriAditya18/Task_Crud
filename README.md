@@ -5,15 +5,48 @@ I developed fully functional Backend with JWT Authentication and Authorizations 
 # Required NPM Packages
 The project uses several packages that need to be installed:
 
-express: Web framework for Node.js
-mongoose: MongoDB object modeling for Node.js
-jsonwebtoken: For generating and verifying JWT tokens
-bcryptjs: For hashing passwords
-nodemailer: For sending emails
-joi: For input validation
-cookie-parser: To parse cookies in the request
-helmet: Helps secure your Express apps by setting various HTTP headers
-cors: For enabling Cross-Origin Resource Sharing
+1. **express**  
+   - A web framework for Node.js that simplifies building web applications and APIs.  
+   - Install: `npm install express`
+
+2. **mongoose**  
+   - MongoDB object modeling for Node.js. Mongoose provides a straightforward way to interact with MongoDB databases by using schemas and models.  
+   - Install: `npm install mongoose`
+
+3. **jsonwebtoken**  
+   - A library for generating and verifying JSON Web Tokens (JWT). It is used for securely transmitting information between parties as a JSON object, often used for user authentication.  
+   - Install: `npm install jsonwebtoken`
+
+4. **bcryptjs**  
+   - A library for hashing passwords. It provides functions to hash and verify passwords, ensuring that stored passwords are secure.  
+   - Install: `npm install bcryptjs`
+
+5. **nodemailer**  
+   - A module for sending emails from your Node.js applications. It is used to send welcome emails, password reset links, and other notifications.  
+   - Install: `npm install nodemailer`
+
+6. **joi**  
+   - A validation library for input data. Joi allows you to define validation rules for incoming request data (such as user inputs) and ensures that the data conforms to expected formats.  
+   - Install: `npm install joi`
+
+7. **cookie-parser**  
+   - Middleware for parsing cookies in incoming requests. It helps you read and manipulate cookies sent with HTTP requests.  
+   - Install: `npm install cookie-parser`
+
+8. **helmet**  
+   - A security middleware for Express.js apps that helps set various HTTP headers to secure the app against common web vulnerabilities, such as Cross-Site Scripting (XSS) and Clickjacking.  
+   - Install: `npm install helmet`
+
+9. **cors**  
+   - Middleware for enabling Cross-Origin Resource Sharing (CORS). It allows your server to respond to requests from different domains or ports.  
+   - Install: `npm install cors`
+   
+## Installation
+
+To install the project dependencies, run the following command:
+
+```bash
+npm install
 
 # Steps to setup
 Step 1: Clone the Repository (if applicable)
